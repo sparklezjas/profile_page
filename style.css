@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.rows{
+    display: flex;
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.nav-bar {
+    display: flex;
+    background-color:black;
+    color: white;
+    align-items: center;
+    height: 7vh;
+    padding: 0px 10px;
+    font-family: roboto;
+}
+.nav-link{
+    margin-right: 10px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    height: 3vh;
+    color: white;
+    background-color: #17a2b8;
+    margin-left: auto;
+}
+.white{
+    text-decoration: none;
+    margin:0 15px;
+    color: rgba(255, 255, 255);
+}
+.active{
+    color: white;
+    font-weight: bold;
+}
+.profile-container {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 220px;
+    background: linear-gradient(rgb(32, 156, 178) 0%, rgb(32, 156, 178) 30%, white 30%, white 100%);
+    margin: 20px;
+    border: 3px solid lightgray;
+    padding: 20px;
+    overflow: hidden; 
+}
+.img1 {
+    width: 60px;
+    height: 60px;
+    border: 3px solid lightgray;
+    display: block;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+.img2 {
+    width: 10px;
+    height: 100%;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.img3 {
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin: 0;
+    float: left;
+    margin-right: 10px;
+}
+.name {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: roboto;
+    top: 105px;
+    left: 30px;
+}
+.location {
+    display: flex;
+    font-family: roboto;
+    font-weight: bold;
+    margin: 120px 0px 10px 5px;
+    font-size: 14px;
+    text-indent: 1vh;
+}
+.title {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: roboto;
+    top: 160px;
+    left: 30px;
+}
+.title2 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: roboto;
+    top: 180px;
+    left: 30px;
+}
+.edit-profile{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: roboto;
+    top: 210px;
+    left: 30px;
+    text-indent: 10px;
+}
+.edit-profile img{
+    margin-right: -4px;
+}
+.blue {
+    color: blue;
+}
+p {
+    font-size: 14px;
+    font-family: roboto;
+    float: left;
+}
+.education-container{
+    flex-direction: column;
+    border: 3px solid lightgray;
+    width: 340px;
+    height: 120px;
+    display: flex;
+    margin: 0px 20px 20px 20px;
+}
+.education-body{
+    overflow: hidden;
+    font-family: roboto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.education-header{
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+    font-family: roboto;
+    padding-left: 25px;
+}
+.dates{
+    color: #7c7c7c;
+}
+.edu-desc{
+    font-weight: bold;
+}
+.connection-container{
+    flex-direction: column;
+    border: 3px solid lightgray;
+    width: 200px;
+    height: 130px;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden; 
+}
+.connection-container-header{
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+    font-family: roboto;
+    padding-left: 25px;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    color: black;
+    background-color: #cccccc;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 1px;
+}
+.table-space{
+    margin: 10px;
+}
+.round{
+    border-radius: 50%;
+    height: 30px;
+}
+/* Your Connection Block */
+.your-connection-container{
+    flex-direction: column;
+    border: 3px solid lightgray;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden; 
+}
+.your-connection-container-header{
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+    font-family: roboto;
+    padding-left: 25px;
+}
+.oval{
+    height: 20px;
+    width: 40px;
+    color: black;
+    background-color: #cccccc;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 4px;
+}
+.link{
+    text-align: left;
+    color: blue;
+    border-top: 3px solid lightgray;
+    text-decoration: underline;
+    width: 200px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
